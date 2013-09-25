@@ -7,4 +7,4 @@ main.o : main.cpp
 	$(CXX) -c -w main.cpp
 
 clean :
-	rm playground *.o
+	-rm playground *.o
