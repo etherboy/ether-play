@@ -2,6 +2,8 @@
 #include <functional>
 #include <algorithm>
 
+#include "futuristic.h"
+
 int main(int argc, char** argv)
 {
 	std::cout << "Hello world!" << std::endl;
@@ -17,6 +19,8 @@ int main(int argc, char** argv)
 	}
 
 	std::cout << std::endl;
+	
+	futurist();
  
 	return 0;
 }
