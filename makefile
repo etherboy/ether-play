@@ -1,13 +1,6 @@
- CXX=g++ -std=c++11
+ CXXFLAGS=-std=c++11 -w
 
-playground : main.o futuristic.o
-	$(CXX) -o playground main.o futuristic.o
-
-main.o : main.cpp
-	$(CXX) -c -w main.cpp
-	
-futuristic.o : futuristic.cpp
-	$(CXX) -c -w futuristic.cpp
+play : main.o futuristic.o
 
 clean :
-	-rm playground *.o
+	-rm play *.o
