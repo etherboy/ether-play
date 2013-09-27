@@ -1,6 +1,11 @@
- CXXFLAGS=-std=c++11 -w
+CXXFLAGS=$(CDEBUG) -std=c++11 -w -pthread
 
-play : main.o futuristic.o
+LIBRARIES=
+SOURCES=main.cpp futuristic.cpp
+OBJECTS=$(SOURCES:.cpp=.o)
+
+play : $(OBJECTS)
+	$(CXX) -o $@ $(CXXFLAGS) $(OBJECTS) $(LIBRARIES)
 
 clean :
-	-rm play *.o
+	-rm -f play *.o
