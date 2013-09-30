@@ -23,15 +23,29 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
+current_page=3
 FILE_NAME_0=79;C++;0;16;1;1;0;%2Fhome%2Ffvander%2FDocuments%2Fplayground%2Ffuturistic.cpp;0;4
-FILE_NAME_1=391;C++;0;16;1;1;0;%2Fhome%2Ffvander%2FDocuments%2Fplayground%2Fmain.cpp;0;4
+FILE_NAME_1=315;C++;0;16;1;1;0;%2Fhome%2Ffvander%2FDocuments%2Fplayground%2Fmain.cpp;0;4
 FILE_NAME_2=30;C;0;16;1;1;0;%2Fhome%2Ffvander%2FDocuments%2Fplayground%2Ffuturistic.h;0;4
+FILE_NAME_3=0;Make;0;16;1;1;0;%2Fhome%2Ffvander%2FDocuments%2Fplayground%2Fmakefile;0;4
 
 [build-menu]
 NF_03_LB=Clean
 NF_03_CM=make clean
 NF_03_WD=
 EX_00_LB=_Execute
-EX_00_CM="./playground"
+EX_00_CM="./play"
 EX_00_WD=
+MakeFT_00_LB=Build All
+MakeFT_00_CM=make
+MakeFT_00_WD=
+MakeFT_01_LB=Build All Debug
+MakeFT_01_CM=make CDEBUG='-g -O'
+MakeFT_01_WD=
+MakeFT_02_LB=Clean
+MakeFT_02_CM=make clean
+MakeFT_02_WD=
+filetypes=Make;
+
+[VTE]
+last_dir=/home/fvander

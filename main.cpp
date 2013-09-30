@@ -3,6 +3,7 @@
 #include <algorithm>
 
 #include "futuristic.h"
+#include "lamb.h"
 
 int main(int argc, char** argv)
 {
@@ -21,6 +22,7 @@ int main(int argc, char** argv)
 	std::cout << std::endl;
 	
 	futurist();
+	LambdaFun();
  
 	return 0;
 }
