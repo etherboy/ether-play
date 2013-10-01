@@ -9,7 +9,7 @@ int Spinner(double aOne, double aTwo)
 	{
 		std::cout << "thread: " << std::this_thread::get_id() << " " << aOne << std::endl;
 		aOne += aTwo;
-		std::this_thread::sleep_for(std::chrono::milliseconds(500));
+		std::this_thread::sleep_for(std::chrono::milliseconds(50));
 	}
 
 	return static_cast<int>(aOne);
@@ -21,7 +21,7 @@ void futurist()
 
 	while(aFuture.wait_for(std::chrono::seconds(0)) == std::future_status::timeout)
 	{
-		std::cout << "waiting" << std::endl;
+		std::cout << "bored" << std::endl;
 	}
 
 	std::cout << "Future: " << aFuture.get() << std::endl;
