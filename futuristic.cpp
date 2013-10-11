@@ -9,7 +9,7 @@ int Spinner(double aOne, double aTwo)
 	{
 		std::cout << "thread: " << std::this_thread::get_id() << " " << aOne << std::endl;
 		aOne += aTwo;
-		std::this_thread::sleep_for(std::chrono::milliseconds(50));
+		std::this_thread::sleep_for(std::chrono::milliseconds(5));
 	}
 
 	return static_cast<int>(aOne);

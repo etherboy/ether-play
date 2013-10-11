@@ -4,6 +4,7 @@
 
 #include "futuristic.h"
 #include "lamb.h"
+#include "classic.h"
 
 int main(int argc, char** argv)
 {
@@ -23,6 +24,7 @@ int main(int argc, char** argv)
 	
 	futurist();
 	LambdaFun();
+	ClassInSession();
  
 	return 0;
 }

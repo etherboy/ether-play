@@ -1,7 +1,7 @@
 CXXFLAGS=$(CDEBUG) -std=c++11 -w -pthread
 
 LIBRARIES=
-SOURCES=main.cpp futuristic.cpp lamb.cpp
+SOURCES=main.cpp futuristic.cpp lamb.cpp classic.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 
 play : $(OBJECTS)
