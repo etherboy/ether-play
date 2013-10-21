@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F78CF8B180AC4D700B24CA2 /* classic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F78CF89180AC4D700B24CA2 /* classic.cpp */; };
 		1FBABFDF1801890700FF8950 /* futuristic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FBABFDA1801890700FF8950 /* futuristic.cpp */; };
 		1FBABFE01801890700FF8950 /* lamb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FBABFDC1801890700FF8950 /* lamb.cpp */; };
 		1FBABFE11801890700FF8950 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FBABFDE1801890700FF8950 /* main.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F78CF89180AC4D700B24CA2 /* classic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = classic.cpp; sourceTree = SOURCE_ROOT; };
+		1F78CF8A180AC4D700B24CA2 /* classic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = classic.h; sourceTree = SOURCE_ROOT; };
 		1F922C041801884600FD4009 /* play */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = play; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBABFDA1801890700FF8950 /* futuristic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = futuristic.cpp; sourceTree = SOURCE_ROOT; };
 		1FBABFDB1801890700FF8950 /* futuristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = futuristic.h; sourceTree = SOURCE_ROOT; };
@@ -63,6 +66,8 @@
 		1F922C061801884600FD4009 /* play */ = {
 			isa = PBXGroup;
 			children = (
+				1F78CF89180AC4D700B24CA2 /* classic.cpp */,
+				1F78CF8A180AC4D700B24CA2 /* classic.h */,
 				1FBABFDA1801890700FF8950 /* futuristic.cpp */,
 				1FBABFDB1801890700FF8950 /* futuristic.h */,
 				1FBABFDC1801890700FF8950 /* lamb.cpp */,
@@ -125,6 +130,7 @@
 			files = (
 				1FBABFDF1801890700FF8950 /* futuristic.cpp in Sources */,
 				1FBABFE01801890700FF8950 /* lamb.cpp in Sources */,
+				1F78CF8B180AC4D700B24CA2 /* classic.cpp in Sources */,
 				1FBABFE11801890700FF8950 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
