@@ -25,9 +25,9 @@ int Run(double& aParam, std::string& aParam2)
 }
 
 template<typename ...Ts>
-int Runner(Ts ...aTs)
+int Runner(Ts&& ...aTs)
 {
-	return Run(aTs...);
+	return Run(std::forward<Ts>(aTs)...);
 }
 
 void TempleRun()
