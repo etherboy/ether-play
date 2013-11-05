@@ -11,6 +11,7 @@
 		1FBABFDF1801890700FF8950 /* futuristic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FBABFDA1801890700FF8950 /* futuristic.cpp */; };
 		1FBABFE01801890700FF8950 /* lamb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FBABFDC1801890700FF8950 /* lamb.cpp */; };
 		1FBABFE11801890700FF8950 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FBABFDE1801890700FF8950 /* main.cpp */; };
+		1FFDA58B182893B20073BB92 /* temple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FFDA589182893B20073BB92 /* temple.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		1FBABFDC1801890700FF8950 /* lamb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lamb.cpp; sourceTree = SOURCE_ROOT; };
 		1FBABFDD1801890700FF8950 /* lamb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lamb.h; sourceTree = SOURCE_ROOT; };
 		1FBABFDE1801890700FF8950 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		1FFDA589182893B20073BB92 /* temple.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = temple.cpp; sourceTree = SOURCE_ROOT; };
+		1FFDA58A182893B20073BB92 /* temple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = temple.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 		1F922C061801884600FD4009 /* play */ = {
 			isa = PBXGroup;
 			children = (
+				1FFDA589182893B20073BB92 /* temple.cpp */,
+				1FFDA58A182893B20073BB92 /* temple.h */,
 				1F78CF89180AC4D700B24CA2 /* classic.cpp */,
 				1F78CF8A180AC4D700B24CA2 /* classic.h */,
 				1FBABFDA1801890700FF8950 /* futuristic.cpp */,
@@ -132,6 +137,7 @@
 				1FBABFE01801890700FF8950 /* lamb.cpp in Sources */,
 				1F78CF8B180AC4D700B24CA2 /* classic.cpp in Sources */,
 				1FBABFE11801890700FF8950 /* main.cpp in Sources */,
+				1FFDA58B182893B20073BB92 /* temple.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
